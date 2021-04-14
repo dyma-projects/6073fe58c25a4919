@@ -1,0 +1,7 @@
+<h1>exercice3 works!</h1>
+<button (click)="statut = !statut">Changer</button>
+
+<br>
+<div *ngIf="statut; else elseBlock">p1</div>
+<ng-template #elseBlock>p2</ng-template>
+    
